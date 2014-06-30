@@ -2,5 +2,6 @@
 
 body{
 	background: url(../background.jpg) 50% 0px no-repeat;
-  	background-size: cover;
+  	background-size: inerith;
+	overflow:hidden;
 }
