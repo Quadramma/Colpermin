@@ -1,7 +1,97 @@
 
 
 body{
+	/*
 	background: url(../background.jpg) 50% 0px no-repeat;
   	background-size: inerith;
+  	*/
 	overflow:hidden;
+}
+
+
+
+
+
+@media (min-width: 320px) { 
+
+div.video.button {
+width: 306px;
+height: 180px;
+position: relative;
+top: 364px;
+left: 43px;
+z-index: 100;
+
+}
+
+	div.email.button {
+width: 30px;
+height: 20px;
+position: relative;
+top: 23px;
+left: 653px;
+z-index: 100;
+
+}
+
+	div.print.button {
+width: 30px;
+height: 24px;
+position: relative;
+top: 43px;
+left: 700px;
+z-index: 100;
+
+}
+
+	div.content.container{
+		margin: 0px auto; 
+	}
+
+	div.content.img{
+		background: url(../background768.jpg) 50% 0px no-repeat;
+  		background-size: inerith;
+		height: 960px;
+		width:768px;
+	}
+
+}
+@media (min-width: 1024px) { 
+
+	div.content.img{
+		background: url(../background1024.jpg) 50% 0px no-repeat;
+  		background-size: inerith;
+		height: 768px;
+		width:1024px;
+	}
+
+	div.video.button {
+width: 306px;
+height: 180px;
+position: relative;
+top: 277px;
+left: 100px;
+z-index: 100;
+
+}
+
+div.email.button {
+width: 30px;
+height: 20px;
+position: relative;
+top: 17px;
+left: 887px;
+z-index: 100;
+
+}
+
+div.print.button {
+width: 30px;
+height: 24px;
+position: relative;
+top: 40px;
+left: 932px;
+z-index: 100;
+}
+
 }
